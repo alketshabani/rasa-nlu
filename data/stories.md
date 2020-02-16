@@ -1,25 +1,16 @@
-## say hello
+## Generated Story -2631642282788300614
 * greet
-  - utter_greet
-
-* out_of_scope
-  - action_restart
-
-
-## ask username 1
-* greet
-  - utter_greet
+    - utter_greet
 * password
-  - utter_password
-* inform
-  - action_username
-  - action_restart
-
-## say goodbye
+    - utter_password
+* inform{"username": "alket", "email": "alket@outlook.com"}
+    - slot{"email": "alket@outlook.com"}
+    - slot{"username": "alket"}
+    - utter_system_name
+* system_name{"system": "mxd"}
+    - slot{"system": "mxd"}
+    - action_username
+* affirm
+    - utter_goodbye
 * goodbye
-  - utter_goodbye
 
-
-## ask for username 2
-* inform
-  - action_username

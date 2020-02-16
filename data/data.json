@@ -751,6 +751,186 @@
             "entity": "username"
           }
         ]
+      },
+      {
+        "text": "my email address is alketcami@gmail.com",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 39,
+            "value": "alketcami@gmail.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "alketshabani@outlook.com",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "alketshabani@outlook.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "fbozgo@smartworknet.eu",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "fbozgo@smartworknet.eu",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "gjaupi@alteanet.it",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "gjaupi@alteanet.it",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "shabalket@gmail.com",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "shabalket@gmail.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "kgolemi@alteanet.it",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "kgolemi@alteanet.it",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "eangjeli@alteanet.it",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "eangjeli@alteanet.it",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "grobo@smartworknet.eu",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "grobo@smartworknet.eu",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "eangjeli@smartworknet.eu",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "eangjeli@smartworknet.eu",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "akoci@smartworknet.eu",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "akoci@smartworknet.eu",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "system is NLP",
+        "intent": "system_name",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "NLP",
+            "entity": "system"
+          }
+        ]
+      },
+      {
+        "text": "oc2",
+        "intent": "system_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "oc2",
+            "entity": "system"
+          }
+        ]
+      },
+      {
+        "text": "OMD",
+        "intent": "system_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "OMD",
+            "entity": "system"
+          }
+        ]
+      },
+      {
+        "text": "OMT",
+        "intent": "system_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "OMT",
+            "entity": "system"
+          }
+        ]
+      },
+      {
+        "text": "OSP",
+        "intent": "system_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "OSP",
+            "entity": "system"
+          }
+        ]
       }
     ]
   }

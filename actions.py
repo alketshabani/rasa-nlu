@@ -9,6 +9,7 @@
 
 # from typing import Any, Text, Dict, List
 #
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import unicode_literals
@@ -16,6 +17,7 @@ from __future__ import unicode_literals
 from rasa_sdk import Action, Tracker
 from rasa_core.events import SlotSet
 import os
+
 # from rasa_sdk.executor import CollectingDispatcher
 #
 #
@@ -30,14 +32,16 @@ import os
 #
 #         dispatcher.utter_message("Hello World!")
 #
-#         return []
-filename = 'C:/Users/Diploma/Desktop/tagui/testVariables/read.txt'
+
 class ReturnSlot(Action):
     def name(self):
           return "action_username"
 
+
     def run(self, dispatcher, tracker, domain):
-        username = tracker.get_slot('username')
-        response = """ we will reset the password for username {}""".format(username)
-        dispatcher.utter_message(response)
-        return [SlotSet('username',username)]
+        answer = tracker.get_slot('system')
+        
+        if answer == yes:
+            print("mxd")
+        else:
+            print("kari")
