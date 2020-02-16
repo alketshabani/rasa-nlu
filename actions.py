@@ -44,4 +44,4 @@ class ReturnSlot(Action):
         if answer == yes:
             print("mxd")
         else:
-            print("kari")
+            print("alket")
